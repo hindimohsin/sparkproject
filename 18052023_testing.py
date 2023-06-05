@@ -16,6 +16,6 @@ res.show(5)
 res.printSchema()
 
 df.createOrReplaceTempView("tab")
-res = spark.sql("sle")
+res = spark.sql("select * from tab")
 
 
